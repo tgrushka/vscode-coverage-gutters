@@ -3,8 +3,26 @@
 [![Installs](https://vsmarketplacebadge.apphb.com/installs/ryanluker.vscode-coverage-gutters.svg)](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters)
 [![Ratings](https://vsmarketplacebadge.apphb.com/rating/ryanluker.vscode-coverage-gutters.svg)](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters)
 
+## Patched to work with RSpec/Rails Cobertura plugin!
+
+## Installing into VS Code:
+### Prepare:
+
+```
+git clone https://github.com/tgrushka/vscode-coverage-gutters.git
+cd vscode-coverage-gutters
+npm ci
+npm run-script build
+```
+
+### Install into VS Code:
+
+```
+ln -s ~/vscode-coverage-gutters ~/.vscode/extensions/
+```
+
 ## Call for Maintainers
-Looking for helpful people to assist with bugs, new features or performance improvements. The project has a full suite of tests and code linting, making it very new contributor friendly. Take a look at some of the open github issues and see if any catch your eye!  
+Looking for helpful people to assist with bugs, new features or performance improvements. The project has a full suite of tests and code linting, making it very new contributor friendly. Take a look at some of the open github issues and see if any catch your eye!
 https://github.com/ryanluker/vscode-coverage-gutters/issues
 
 ## Features
